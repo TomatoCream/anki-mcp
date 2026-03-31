@@ -1,6 +1,10 @@
 # Anki Connect MCP Server
 
-A high-quality Model Context Protocol (MCP) server that provides a bridge between LLMs (like Claude) and [Anki](https://apps.ankiweb.net/) via the [Anki-Connect](https://ankiweb.net/shared/info/2055492159) plugin.
+A high-quality Model Context Protocol (MCP) server that provides a bridge between LLMs (like Claude) and [Anki](https://apps.ankiweb.net/) via the [Anki-Connect](https://git.sr.ht/~foosoft/anki-connect) plugin.
+
+## Project Goal
+
+The primary objective of this project is to provide **strong typing** for all Anki-Connect inputs and outputs using Pydantic, ensuring that LLMs have a clear, schema-validated interface to interact with Anki's database. This minimizes errors and allows for sophisticated automation of flashcard management.
 
 Built with:
 - `python 3.12+`

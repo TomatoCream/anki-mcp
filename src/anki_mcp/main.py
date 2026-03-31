@@ -1,3 +1,7 @@
+"""
+Anki Connect MCP Server
+Powered by Anki-Connect: https://git.sr.ht/~foosoft/anki-connect
+"""
 from typing import Dict, List, Optional, Any, Union
 from fastmcp import FastMCP
 import typer
