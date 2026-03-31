@@ -1,0 +1,22 @@
+[project]
+name = "anki-mcp"
+version = "0.1.0"
+description = "Anki Connect MCP Server"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=3.2.0",
+    "httpx>=0.28.1",
+    "pydantic>=2.12.5",
+    "rich>=14.3.3",
+    "typer>=0.24.1",
+]
+
+[project.scripts]
+anki-mcp = "anki_mcp.main:app"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "pytest-asyncio>=1.3.0",
+]

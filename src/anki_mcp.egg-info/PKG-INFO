@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: anki-mcp
+Version: 0.1.0
+Summary: Anki Connect MCP Server
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: fastmcp>=3.2.0
+Requires-Dist: httpx>=0.28.1
+Requires-Dist: pydantic>=2.12.5
+Requires-Dist: rich>=14.3.3
+Requires-Dist: typer>=0.24.1

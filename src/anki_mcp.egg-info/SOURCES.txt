@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/anki_mcp/__init__.py
+src/anki_mcp/client.py
+src/anki_mcp/main.py
+src/anki_mcp/models.py
+src/anki_mcp.egg-info/PKG-INFO
+src/anki_mcp.egg-info/SOURCES.txt
+src/anki_mcp.egg-info/dependency_links.txt
+src/anki_mcp.egg-info/entry_points.txt
+src/anki_mcp.egg-info/requires.txt
+src/anki_mcp.egg-info/top_level.txt
