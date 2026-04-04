@@ -1,9 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "anki-mcp"
 version = "0.1.0"
 description = "Anki Connect MCP Server"
-readme = "README.md"
+readme = "README.org"
 requires-python = ">=3.12"
+license = "MIT"
+authors = [
+    { name = "Wong Ding Feng" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
 dependencies = [
     "fastmcp>=3.2.0",
     "httpx>=0.28.1",
